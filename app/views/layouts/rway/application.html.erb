@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Rway</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
   <%= stylesheet_link_tag    "rway/application", media: "all" %>
   <%= javascript_include_tag "rway/application" %>
   <%= csrf_meta_tags %>
+
+  <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+  <%= yield(:head) %>
+
 </head>
 <body>
 
+<%= render 'layouts/rway/header' %>
+
 <%= yield %>
 
-</body>
-</html>
+<%= render 'layouts/rway/footer' %>

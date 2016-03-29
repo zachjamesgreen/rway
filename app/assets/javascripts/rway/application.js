@@ -10,4 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require 'what-input.min.js'
+//= require 'jquery.min.js'
+//= require 'foundation.min.js'
 //= require_tree .
