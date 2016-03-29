@@ -1,0 +1,37 @@
+Post
+  title
+  content
+  format (html plain_text markdown)
+  snippet
+  slug
+  author
+  status (published)
+  created at
+  updated at
+Post Meta Data
+  (key => value)
+User aka author
+  first name
+  last name
+  email
+  phone (nullable)
+  username
+  password (bcrypt)
+  status
+Page
+  name
+  URI
+  content
+  format (html plain_text markdown)
+  creater aka user
+Media
+  post (nullable)
+  type (pic music file)
+  name
+  path
+  size
+Comments
+  commenter
+  comment
+  created at
+COMMENTS SUCK
