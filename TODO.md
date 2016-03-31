@@ -19,8 +19,5 @@
 
 ---
 ### Resources
-[WYSIHTML5][wysi]
-[Capistrano][capistrano]
-
-[wsyi]: https://github.com/Voog/wysihtml
-[capistrano]: https://github.com/capistrano/capistrano
+- [WYSIHTML5](https://github.com/Voog/wysihtml)
+- [Capistrano](https://github.com/capistrano/capistrano)
