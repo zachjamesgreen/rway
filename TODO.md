@@ -1,5 +1,5 @@
 #TODO
-- use slug as route param
+- ~~use slug as route param~~
 - page resolver
   - figure how to tap into routes
 - wysiwyg support
