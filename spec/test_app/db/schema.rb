@@ -11,10 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160329055252) do
+ActiveRecord::Schema.define(version: 20160331212015) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "rway_pages", force: :cascade do |t|
+    t.string   "name"
+    t.text     "content"
+    t.string   "path"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 # Could not dump table "rway_posts" because of following StandardError
 #   Unknown type 'post_status' for column 'status'

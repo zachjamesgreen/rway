@@ -12,5 +12,10 @@ module Rway
       @post = Post.find_by(slug: params[:slug])
       render 'app/index/show'
     end
+
+    def page
+      @page = Page.first
+      render 'app/index/page'
+    end
   end
 end

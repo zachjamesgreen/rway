@@ -2,6 +2,6 @@
 
 <% @posts.each do |post| %>
   <div class="columns large">
-    <h3><%= link_to post.title, "/#{post.slug}" %></h3>
+    <h3><%= link_to post.title, post_uri(post) %></h3>
   </div>
 <% end %>
