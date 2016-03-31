@@ -11,6 +11,12 @@
     </div>
   <% end %>
 
+  Title: <%= f.text_field :title %>
+  Slug: <%= f.text_field :slug %>
+  Snippent: <%= f.text_field :snippet %>
+  Content: <%= f.text_area :content %>
+  Status: <%= f.select :status, Rway::Post.statuses %>
+
   <div class="actions">
     <%= f.submit %>
   </div>

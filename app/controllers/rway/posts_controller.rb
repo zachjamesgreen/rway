@@ -56,7 +56,7 @@ module Rway
 
       # Only allow a trusted parameter "white list" through.
       def post_params
-        params[:post]
+        params[:post].permit(:title, :slug, :snippet, :content, :status)
       end
   end
 end

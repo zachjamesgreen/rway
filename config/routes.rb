@@ -1,4 +1,4 @@
 Rway::Engine.routes.draw do
   resources :posts
-  root to: 'posts#index'
+  root to: 'admin#index'
 end
