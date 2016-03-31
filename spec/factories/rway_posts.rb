@@ -1,7 +1,7 @@
 FactoryGirl.define do
-  factory :post, class: 'Rway::Post' do
+  factory :valid_post, class: 'Rway::Post' do
     title {Faker::Lorem.sentence}
-    # snippet {Faker::Lorem.sentences}
     content {Faker::Lorem.paragraph}
+    slug {Faker::Lorem.word}
   end
 end

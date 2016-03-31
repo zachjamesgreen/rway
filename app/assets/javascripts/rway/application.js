@@ -12,5 +12,6 @@
 //
 //= require 'what-input.min.js'
 //= require 'jquery.min.js'
+//= require jquery_ujs
 //= require 'foundation.min.js'
 //= require_tree .

@@ -1,1 +1,7 @@
 <h1>Index</h1>
+
+<% @posts.each do |post| %>
+  <div class="columns large">
+    <h3><%= link_to post.title, "/#{post.slug}" %></h3>
+  </div>
+<% end %>
